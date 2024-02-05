@@ -14,4 +14,8 @@ body {
     .labelText-1 {
         @apply font-semibold !text-black;
     }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
 }
