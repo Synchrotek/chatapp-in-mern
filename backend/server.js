@@ -1,5 +1,3 @@
-// Tutorial TIme: 1.10.00
-
 import dotenv from 'dotenv';
 import express from 'express';
 import cookieParser from 'cookie-parser';
@@ -27,6 +25,6 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    // connectToMongoDB()
+    connectToMongoDB()
     console.log(`Server running: http://localhost:${PORT}`);
 });
