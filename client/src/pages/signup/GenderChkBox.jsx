@@ -6,7 +6,7 @@ const GenderChkBox = () => {
             <label className={`label gap-2 cursor-pointer`}>
                 <span className='label-text labelText-1'>Male</span>
                 <input type="checkbox"
-                    className='checkbox border-slate-900'
+                    className='checkbox checkbox-primary border-slate-900'
                 />
             </label>
         </div>
@@ -14,7 +14,7 @@ const GenderChkBox = () => {
             <label className={`label gap-2 cursor-pointer`}>
                 <span className='label-text labelText-1'>Female</span>
                 <input type="checkbox"
-                    className='checkbox border-slate-900'
+                    className='checkbox checkbox-secondary border-slate-900'
                 />
             </label>
         </div>
