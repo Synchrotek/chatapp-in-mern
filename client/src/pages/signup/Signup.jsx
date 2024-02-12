@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import useSignup from '../../hooks/useSignup'
 
 const Signup = () => {
+    const { loading, signup } = useSignup();
+
     const [inputs, setInputs] = useState({
         fullName: "",
         username: "",
@@ -11,8 +13,6 @@ const Signup = () => {
         confirmPassword: "",
         gender: "",
     });
-
-    const { loading, signup } = useSignup()
 
     const handleGenderChange = (gender) => {
         setInputs({ ...inputs, gender });
