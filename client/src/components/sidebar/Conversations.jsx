@@ -13,7 +13,7 @@ const Conversations = () => {
                     key={conversation._id}
                     conversation={conversation}
                     emoji={getRandomEmoji()}
-                    lastIdx={idx === conversation.length - 1}
+                    lastIdx={idx === conversations.length - 1}
                 />
             ))}
             {loading ?
